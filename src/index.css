@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
+@theme {
+  --color-darkBg: #191919;
+  --color-grayText: #ebebeb;
+  --color-bermuda: #78dcca;
+}
+
 @layer base {
     @font-face {
       font-family: 'Geist Sans';
@@ -11,5 +17,9 @@
     html {
       font-family: 'Geist Sans','sans-serif';
       background-color: #000;
+    }
+
+    button {
+      cursor: pointer;
     }
 }
